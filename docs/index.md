@@ -3,57 +3,63 @@ title: Home Page
 layout: default
 navigation_weight: 1
 ---
-# Shell Lesson Template
+# Html Lesson Template
 
-State the issue of the problem in the form of a question.
-
-![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+{{ site.tagline }}
 
 ## Table O Contents
+
+![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
 
 - TOC
 {:toc}
 
-## Solution
+**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
 
-Expound the solution ...
+## Issue Dtd 12-31-17
 
-## The Code
+The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-Highlight the code ...
+Should it be, or should it not be?
 
-## Summation
+### The Socratic Method
+
+State the issue of the problem in the form of a question ie.) How do you code this stuff?
+
+## Rule
+
+The rule may be split into two components ...
+
+### Current Majority View
+
+What is the current view as expressed by the majority of federal districts and state courts based on the common law with reference to the UCC, 2nd Restatements, etc. et al?
+
+### The Minority View
+
+What is the minority view as expressed by the dissent?
+
+{% include analysis-code-live.md %}
+
+## Conclusion
+
+A concise conclusion wraps the argument ...
+
+### Summation
 
 Delineate the steps ...
 
-## Live
+### Solution
 
-Render the code live
+Expound the solution ...
 
-## Ping-back
+### Description
 
-- Live Link
+{{ site.description }}
 
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
+{% include raw-code-anchors.md %}
 
-- The Code
+{% include sources-and-uses.md %}
 
-```liquid
-{% raw %}
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
-{% endraw %}
-```
+### External Sources
 
-## Raw Code
-
-Place the introducing line of text ie.) the 'tagline' here ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
-***
-
-**Source**: [Project Source Links](https://rwebaz.github.io/Html-Lessons-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}
+- The [Project Source Links](https://mminail.github.io/Html/Source-Html-Links.htm){:title="Click to Visit the Source Links page of the Html Lessons Project at GitHub pages"}{:target="_blank"} page of the Html Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
