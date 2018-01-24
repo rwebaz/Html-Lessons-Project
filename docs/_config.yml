@@ -1,13 +1,20 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 12-18-2017
+# Date of this Update to Config-template file ver 12-31-2017
 #
 # github: [metadata]
+#
 theme: "jekyll-theme-cayman"
-# repository: https://www.github.com/rwebaz/Go-Lessons-Project
+#
+# There is one main repository as of 12-31-17
+# repository: https://www.github.com/MMINAIL/mminail.github.io
+#
+# There are approx sixty auxillary repositories as of 12-31-17
+# repository: https://www.github.com/rwebaz/Html-Lessons-Project
+#
 title: "Html Lessons Project"
-tagline: "A GitHub repo of Lessons and Articles that emphasize the GO development engine"
-description: "A GitHub repo of Lessons and Articles that emphasize the GO development engine"
+tagline: "A GitHub repo of Lessons and Articles that emphasize the Hypertext Markup Language"
+description: "A GitHub repo of Lessons and Articles that emphasize the Hypertext Markup Language."
 twitter:
     username: "mminail"
 author:
@@ -15,9 +22,9 @@ author:
     email: "mminail@icloud.com"
     github_username: "rwebaz"
     twitter_username: "rwebaz"
-# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
+# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project or /blog or simply "/"
 baseurl: "/Html-Lessons-Project"
-# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
+# The 'url' is the parental web address of your designated project, e.g. /https://mminail.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
