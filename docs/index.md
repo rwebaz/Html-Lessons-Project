@@ -3,7 +3,7 @@ title: Home Page
 layout: default
 navigation_weight: 1
 ---
-# Html Lesson Template
+# Html Lessons Project Home Page
 
 {{ site.tagline }}
 
