@@ -1,13 +1,16 @@
 ---
-title: Lesson Html
+title: Html Tag
 layout: default
+excerpt: The html tag is the highest ranking Object within the Document Object Model ...
+version: Page Template md Dtd 02-16-18
 navigation_weight: 8
+categories: template
 ---
-# Lesson Html
+# {{ page.title }}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Html Box-node
 
@@ -19,7 +22,7 @@ The `html` tag, or ...
 {% endraw %}
 ```
 
-Is the highest ranking Object within the **Document Object Model**, or [DOM](https://){:title='Document Object Model'}{:target='_blank'}.
+The html tag is the highest ranking Object within the **Document Object Model**, or [DOM](https://){:title='Document Object Model'}{:target='_blank'}.
 
 The [DOM](https://){:title='Document Object Model'}{:target='_blank'} is derived from the many and varied tags and text found *nested* inside a single page of [Html](https://){:title='Hypertext Markup Language'}{:target='_blank'}.
 
@@ -195,13 +198,15 @@ Open up the Chrome browser tools and navigate to the `Sources`, `Snippets` tab o
 
 - Copy and paste the above two (2) lines of code into the `Snippets` window and save the snippet as `Get Element By Tag Name`
 
-## Next Subtitle
+## Import Code
 
 More to come ...
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
 
 ```liquid
 {% raw %}
@@ -209,14 +214,16 @@ Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include brackets-ide.md %}
-
 {% include sources-and-uses.md %}
+
+1. {:#BLANK}[The Blank Live at The Blank Festival, 2000](https://youtu.be/Blank){:title='Click to Watch the YouTube video of the Blank Live at the The Blank Festival, 2000'}{:target='_blank'}.
+
+1. [Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'} by Marijn Haverbeke. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
+
+1. [Jekyll Tips n Vids](https://learn.cloudcannon.com/){:title='Click to Visit the Landing page of Jekyll Tips n Vids by Cloud Cannon'}{:target='_blank'}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title='Click to Visit the Home Page of Cloud Cannon dot com'}{:target='_blank'}.
 
 ### External Sources
 
-- [Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'} by Marijn Haverbeke. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title='Click to Visit the Source Links page of the Shell Lessons Project at Concepts Library'}{:target='_blank'} page of the Shell Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
 
-- [Jekyll Tips n Vids](https://learn.cloudcannon.com/){:title='Click to Visit the Landing page of Jekyll Tips n Vids by Cloud Cannon'}{:target='_blank'}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title='Click to Visit the Home Page of Cloud Cannon dot com'}{:target='_blank'}.
-
-- The [Project Source Links](https://mminail.github.io/Html/Source-Html-Links.htm){:title='Click to Visit the Source Links page of the Html Lessons Project at GitHub pages'}{:target='_blank'} page of the Html Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concept Library at the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
+**Note**. This page crafted with {{ page.version }}.
