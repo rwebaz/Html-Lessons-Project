@@ -2,17 +2,17 @@
 title: Html Tag
 layout: default
 excerpt: The html tag is the highest ranking Object within the Document Object Model ...
-version: Page Template md Dtd 02-16-18
+hint: The html tag is the highest ranking object within the Document Object Model, or DOM.
+repo: Html-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: template
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## Html Box-node
+
+> **Hint**. {{ page.hint }}
 
 The `html` tag, or ...
 
@@ -21,8 +21,6 @@ The `html` tag, or ...
 <html>...</html>
 {% endraw %}
 ```
-
-The html tag is the highest ranking Object within the **Document Object Model**, or [DOM](https://){:title='Document Object Model'}{:target='_blank'}.
 
 The [DOM](https://){:title='Document Object Model'}{:target='_blank'} is derived from the many and varied tags and text found *nested* inside a single page of [Html](https://){:title='Hypertext Markup Language'}{:target='_blank'}.
 
@@ -198,32 +196,16 @@ Open up the Chrome browser tools and navigate to the `Sources`, `Snippets` tab o
 
 - Copy and paste the above two (2) lines of code into the `Snippets` window and save the snippet as `Get Element By Tag Name`
 
-## Import Code
+## Last Subtitle
 
 More to come ...
 
-## Last Subtitle
+***
 
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+**Note**. The above synopsis was derived from an article written by Marijn Haverbeke [[1](#MARUJNHAVERBEKE){:.red}].
 
-### Raw Code Block
+1. {:#MARUJNHAVERBEKE}[Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'} by Marijn Haverbeke. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
-
-1. {:#BLANK}[The Blank Live at The Blank Festival, 2000](https://youtu.be/Blank){:title='Click to Watch the YouTube video of the Blank Live at the The Blank Festival, 2000'}{:target='_blank'}.
-
-1. [Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'} by Marijn Haverbeke. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
-
-1. [Jekyll Tips n Vids](https://learn.cloudcannon.com/){:title='Click to Visit the Landing page of Jekyll Tips n Vids by Cloud Cannon'}{:target='_blank'}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title='Click to Visit the Home Page of Cloud Cannon dot com'}{:target='_blank'}.
-
-### External Sources
-
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title='Click to Visit the Source Links page of the Shell Lessons Project at Concepts Library'}{:target='_blank'} page of the Shell Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}

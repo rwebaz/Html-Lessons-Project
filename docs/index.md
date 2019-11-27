@@ -2,80 +2,24 @@
 title: Home Page
 layout: default
 excerpt: Html tags and Html statements mimic underlying Javascript methods ...
-version: Index Template md Dtd 02-16-18
+description_one: Issue, Rule, Analysis, Conclusion = IRAC
+repo: Html-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 1
-categories: template
+categories: page
 ---
-{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
-
-# Html Lessons Project Home Page
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
-## Issue
-
-The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
-
-Should it be, or should it not be?
-
-### The Socratic Method
-
-State the issue of the problem in the form of a question ie.) How do you code this stuff?
-
-## Rule
-
-The rule may be split into two components ...
-
-### Current Majority View
-
-What is the current view as expressed by the majority of federal districts and state courts based on the common law with reference to the UCC, 2nd Restatements, etc. et al?
-
-### The Minority View
-
-What is the minority view as expressed by the dissent?
-
-{% include analysis-code-live.md %}
-
-## Conclusion
-
-A concise conclusion wraps the argument ...
-
-### Summation
-
-Delineate the steps ...
-
-### Solution
-
-Expound the solution ...
-
-### Description
-
-{{ site.description }}
-
-{% include raw-code-anchors.md %}
-
-## Import Code
-
-More to come ...
-
-## Last Subtitle
-
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
-
-### Raw Code Block
-
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+{% include irac-issue-rule-analysis-conclusion.md %}
 
 {% include sources-and-uses.md %}
 
 ### External Sources
 
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Html/Source-Html-Links.htm){:title="Click to Visit the Source Links page of the Html Lessons Project at GitHub pages"}{:target="_blank"} page of the Html Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+To view a list of aggregate external links for this project, visit the [Home Page](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library at MMINAIL'}{:target='_blank'} of the MMINAIL concept library and scroll the navigator until you see the `Html` section.
 
-**Note**. This page crafted with {{ page.version }}.
+In the sub-menu of the `Html` section you will find a hyperlink to the source links for this project, as follows:
+
+- [Html Source Links](https://mminail.github.io/Html/Html-Source-Links.htm){:title="Click to Visit the Html Source Links page of the Html Lessons Project at the Concept Library"}{:target="_blank"}
+
+{% include patreon-link.md %}
